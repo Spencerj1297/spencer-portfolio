@@ -1,0 +1,526 @@
+.circle-cursor {
+  color: (17, 17, 17, 0.875);
+}
+
+body {
+  background-color: rgba(17, 17, 17, 0.95);
+  background-size: cover;
+  min-height: 100%;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="25" height="25"><circle cx="8" cy="8" r="6" fill="white"/></svg>')
+      8 8,
+    auto;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  height: 100%;
+}
+
+.headerContainer {
+  display: inline;
+}
+
+.header1 {
+  color: aliceblue;
+  display: block;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: -4px;
+  font-size: 90px;
+  word-spacing: 15px;
+  margin: none;
+  margin-left: 90px;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.periodTitle {
+  color: rgba(17, 17, 17, 0);
+}
+
+.textEffect:hover {
+  color: #2b9bf6;
+  transition: 0.2s;
+  text-shadow: -4px 0 #60d35c;
+  
+}
+
+.picContainer {
+  height: 650px;
+  width: 500px;
+  background-size: cover;
+  border-radius: 100px;
+  display: inline-block;
+  float: right;
+  margin-right: 100px;
+  opacity: 0.75;
+
+  /* box-shadow: 0 0 8px 8px black inset; */
+}
+
+.slogo {
+  vertical-align:middle;
+  margin-right: -22px;
+  height: 175px;
+  width: 175px;
+  color: #2b9bf6;
+  font-size: 125px;
+  text-shadow: -9.5px 0 #60d35c;
+}
+
+.slogo:hover {
+animation: shake 0.75s;
+}
+.intext-link {
+  color: #2b9bf6;
+  text-decoration: none;
+}
+
+.descriptionContainer {
+  height: 200px;
+  margin-left: 90px;
+  margin-bottom: 100px;
+}
+
+.subHeaders {
+  color: #7bfba3;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: -4px;
+  margin-top: 1px;
+  margin-bottom: 50px;
+  font-size: 70px;
+}
+
+.text {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  
+  max-width: 60%;
+}
+
+#elementToFadeInAndOut {
+  color: rgb(255, 255, 255);
+  animation: animate 0.75s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.NavBarBut {
+  height: 50px;
+  width: 175px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+  background-color: #7bfba3;
+  /* border: 1px solid rgba(17, 17, 17, 0.95); */
+  border: none;
+  color: rgba(17, 17, 17, 0.95);
+  margin-left: 90px;
+  margin-top: 30px;
+  margin-bottom: 110px;
+}
+
+.NavBarBut2 {
+  height: 50px;
+  width: 175px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+  background-color: #7bfba3;
+  /* border: 1px solid rgba(17, 17, 17, 0.95); */
+  border:none;
+  color: rgba(17, 17, 17, 0.95);
+  float:right;
+  margin-right: 165px;
+  margin-top: -13px;
+  margin-bottom: -40rem;
+}
+@keyframes shake {
+  0% {
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateY(-2px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.NavBarBut:hover {
+  color: #7bfba3;
+  background-color: #2b9bf6;
+  transition: 0.5s;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><circle cx="8" cy="8" r="6" fill="black"/></svg>')
+      8 8,
+    auto;
+  /* animation: shake 0.50s; */
+}
+
+.NavBarBut2:hover {
+  color: #7bfba3;
+  background-color: #2b9bf6;
+  transition: 0.5s;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><circle cx="8" cy="8" r="6" fill="black"/></svg>')
+      8 8,
+    auto;
+  /* animation: shake 0.50s; */
+}
+
+.projectsContainer {
+  height:400px;
+  width: 500px;
+  margin:0 auto;
+}
+
+.slide-container{
+height: 100%;
+position: relative;
+}
+
+.slides {
+  height:100%;
+  width:100%;
+  opacity: 0.75;
+  /* border-radius: 20px; */
+  background-position: center;
+  background-size: cover;
+  transition: all .2s ease-in-out;
+  box-shadow: rgb(0, 0, 0) 0px 50px 100px -20px, rgb(0, 0, 0) 0px 30px 60px -30px, rgb(0, 0, 0) 0px -2px 6px 0px inset;
+  margin-top:250px;
+}
+
+.left-arrow{
+position: absolute;
+top: 50%;
+transform: translate(0, -5%);
+left:32px;
+font-size: 3.5rem;  
+font-weight: bolder;
+color:#fff;
+z-index: 1;
+cursor: pointer;
+}
+
+.left-arrow:hover{
+  transform: scale(1.75);
+  transition: all .2s ease-in-out;
+  color: #2b9bf6;
+}
+
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -5%);
+  right:32px;
+  font-size: 3.5rem;  
+  font-weight: bolder;
+  color:#fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.right-arrow:hover{
+  transform: scale(1.75);
+  transition: all .2s ease-in-out;
+  color: #2b9bf6;
+}
+
+.me {
+  height: 700px;
+  width: 700px;
+  align-self: flex-end;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-bottom: 90px;
+  /* opacity: 0.75; */
+  object-fit: contain;
+}
+
+.background-about-me{
+  
+}
+
+.aboutMeContainer {
+  display: flex;
+  justify-content: flex-start;
+  height: 600px;
+  width: 90%;
+}
+
+.contactContainer {
+  margin-top: 300px;
+  border-top: 5px solid rgba(0, 0, 0, 0.95);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.95); 
+  background-color: rgba(0, 0, 0, 0.618);
+  /* background-image: url("./assets/laptop.jpg"); */
+  opacity: 0.75;
+  background-size: cover;
+  height: 55rem;
+  width:100%;
+  margin:0 auto;
+  margin-top: 100px;
+}
+
+.contactPage {
+  height: 450px;
+  width: 700px;
+  border: 2px solid black;
+  margin-left: 90px;
+}
+
+.contactMe {
+  color: #7bfba3;
+  font-family: "Mulish", sans-serif;
+  font-size: 55px;
+  margin-left: 90px;
+}
+.mouseParent {
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  bottom: 5.5rem;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-right: 10px;
+}
+
+.scollDown {
+  position: absolute;
+  bottom: 5.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll {
+  width: 2rem;
+  height: 4rem;
+  border: 2px solid white;
+  border-radius: 2rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.scroll span {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: white;
+  display: block;
+  animation: cursor 2.5s linear infinite;
+}
+
+.arrowDown {
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 2px solid transparent;
+  border-right-color: white;
+  border-bottom-color: white;
+  transform: rotate(45deg);
+  margin-top: 0.3rem;
+  margin-left: 9.5px;
+  animation: arrow 2.5s linear infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(1rem);
+  }
+}
+
+.fadedTitles {
+
+  float: right;
+  font-size: 400px;
+  margin-bottom: -350px;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  letter-spacing: -50px;
+  color: rgba(40, 39, 39, 0.472);
+  text-align: right;
+  text-shadow: -10px 0 #0000003e;
+}
+.fadedTitles2 {
+  font-size: 400px;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  margin-bottom: -200px;
+  margin-left: -50px;
+  letter-spacing: -50px;
+  color: rgba(40, 39, 39, 0.472);
+  text-align: left;
+  text-shadow: -10px 0 #0000003e;
+  margin-top: 50px;
+}
+
+.your-name {
+  height: 2rem;
+  width: 30rem;
+  background-color: rgba(40, 39, 39, 0.95);
+  opacity: 0.75;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+}
+
+.your-email {
+  height: 2rem;
+  width: 30rem;
+  background-color: rgba(40, 39, 39, 0.95);
+  opacity: 0.75;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+}
+
+.your-message {
+  background-color: rgba(40, 39, 39, 0.95);
+  opacity: 0.75;
+  width: 30rem;
+  height: 15rem;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+  border: none;
+}
+
+.send-a-message {
+  height: 50px;
+  width: 175px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+  background-color: #7bfba3;
+  /* border: 1px solid rgba(17, 17, 17, 0.95); */
+  border:none;
+  color: #2b9bf6;
+  margin-left: 90px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.send-a-message:hover {
+  color: #7bfba3;
+  background-color: #2b9bf6;
+  transition: 0.5s;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><circle cx="8" cy="8" r="6" fill="black"/></svg>')
+      8 8,
+    auto;
+}
+.contact-header-container {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-right: 35px;
+}
+.container-contact-form1 {
+  margin-left: 90px;
+  display: inline-block;
+}
+.container-contact-form2 {
+  margin-left: 90px;
+  margin-top: 3px;
+}
+.container-contact-form3 {
+  margin-left: 90px;
+  margin-top: 3px;
+  display: inline-block;
+}
+
+.form {
+  text-align: center;
+  margin-right: 100px;
+}
+
+.logo-links {
+  height: 4rem;
+  width: 4rem;
+  margin-left: 1rem;
+  margin-top: 7rem;
+}
+
+.dot-container{
+  display: flex;
+  justify-content: center;
+}
+
+.dot-styles{
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 30px;
+  color: #fff;
+}
+
+.dot-styles:hover{
+  transform: scale(1.25);
+  transition: all .2s ease-in-out;
+}
+
+.subHeaderContact {
+  color: #7bfba3;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: -4px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 70px;
+}
+
