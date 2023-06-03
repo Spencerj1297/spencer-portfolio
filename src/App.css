@@ -219,8 +219,8 @@ html {
 }
 
 .projectsContainer {
-  height: 500px;
-  width: 600px;
+  height:35rem;
+  width: 50rem;
   margin: 0 auto;
 }
 
@@ -231,7 +231,7 @@ html {
 
 .slides {
   height: 100%;
-  width: 100%;
+  width: auto;
   opacity: 0.75;
   /* border-radius: 20px; */
   background-position: center;
@@ -279,11 +279,11 @@ html {
 }
 
 .me {
-  height: 700px;
-  width: 700px;
+  height: 500px;
+  width: 500px;
   align-self: flex-end;
   margin-left: 20px;
-  margin-right: 40px;
+  margin-right: 20px;
   margin-bottom: 90px;
   border-radius: 100px;
   /* opacity: 0.75; */
@@ -501,10 +501,10 @@ html {
 }
 
 .logo-links {
-  height: 4rem;
-  width: 4rem;
-  margin-left: 1rem;
-  margin-top: 1rem;
+  height: 6.5rem;
+  width: 6.5rem;
+  margin-left: 3rem;
+  margin-top: .25rem;
 }
 
 .dot-container {
@@ -560,4 +560,9 @@ html {
   height: 4rem;
   width: 4rem;
   margin-bottom: 15rem;
+}
+
+.footer-styles{
+  display: flex;
+  justify-content: center;
 }

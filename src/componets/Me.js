@@ -1,6 +1,4 @@
 import React from "react"
-import spencer from "../assets/spencer2.0.png"
-import HTML from "../assets/HTML.png"
 import newSpencer from "../assets/newSpencer.png"
 
 const Me = () => {

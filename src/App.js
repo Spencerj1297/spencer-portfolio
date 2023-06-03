@@ -9,11 +9,11 @@ import Me from "./componets/Me"
 import Contact from "./componets/Contact"
 import Cursor from "./Cursor"
 // import Footer from "./componets/Footer"
-import image1 from "./assets/tic-tac.png"
-import image2 from "./assets/piglatin.png"
-import image3 from "./assets/image3.avif"
-import image4 from "./assets/image4.avif"
-import image5 from "./assets/image5.avif"
+import image1 from "./assets/Yum.png"
+import image2 from "./assets/Pokemon.png"
+import image3 from "./assets/apartment.png"
+import image4 from "./assets/tic-tac.png"
+import image5 from "./assets/piglatin.png"
 import link from "./assets/link.png"
 import github from "./assets/GITHUB.png"
 
@@ -69,8 +69,7 @@ const App = () => {
       </section>
       <section className="container reveal">
       <Contact />
-      </section>
-      <footer>
+      <div className="footer-styles">
           <a
             href="https://www.linkedin.com/in/a-spencer-johnson"
             target="_blank"
@@ -85,7 +84,8 @@ const App = () => {
           >
             <img src={github} className="logo-links" />
           </a>
-        </footer>
+        </div>
+      </section>
     </>
   )
 }
