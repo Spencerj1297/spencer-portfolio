@@ -20,11 +20,11 @@ import github from "./assets/GITHUB.png"
 
 const App = () => {
   const slides = [
-    { url: image1, title: "Github" },
-    { url: image2, title: "link" },
-    { url: image3, title: "me" },
-    { url: image4, title: "waves" },
-    { url: image5, title: "also me" },
+    { image: image1, title: "Yum", url: "https://yum-web-application-front.onrender.com/" },
+    { image: image2, title: "I Choose You", url: "https://www.linkedin.com/in/a-spencer-johnson" },
+    { image: image3, title: "Apartment app", url: "https://www.linkedin.com/in/a-spencer-johnson" },
+    { image: image4, title: "Tic Tac Toe", url: "https://www.linkedin.com/in/a-spencer-johnson" },
+    { image: image5, title: "Pig latin", url: "https://www.linkedin.com/in/a-spencer-johnson" },
   ]
 
   useEffect(() => {
@@ -82,7 +82,7 @@ const App = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={github} className="logo-links" />
+            <img src={github} className="logo-links" id="github-link" />
           </a>
         </div>
       </section>

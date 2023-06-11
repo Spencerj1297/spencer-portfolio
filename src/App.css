@@ -53,8 +53,7 @@ html {
   letter-spacing: -4px;
   font-size: 90px;
   word-spacing: 15px;
-
-  margin-left: 90px;
+  margin-left: 90px !important;
 }
 
 @keyframes typing {
@@ -310,6 +309,10 @@ html {
   font-size: 55px;
   margin-left: 90px;
 }
+
+.contactContainer{
+  margin-right: -3rem;
+}
 .mouseParent {
   /* position: fixed; */
   left: 0;
@@ -422,6 +425,7 @@ html {
   height: 2rem;
   width: 30rem;
   background-color: rgba(40, 39, 39, 0.95);
+  margin-bottom: 0.25rem;
   opacity: 0.75;
   color: white;
   border: none;
@@ -435,6 +439,7 @@ html {
   width: 30rem;
   background-color: rgba(40, 39, 39, 0.95);
   opacity: 0.75;
+  margin-bottom: 0.25rem;
   color: white;
   border: none;
   font-size: 20px;
@@ -503,7 +508,7 @@ html {
 .logo-links {
   height: 6.5rem;
   width: 6.5rem;
-  margin-left: 3rem;
+  margin-left: 4rem;
   margin-top: .25rem;
 }
 
@@ -536,7 +541,7 @@ html {
 .contact-page-response1 {
   opacity: 0.75;
   width: 100%;
-  margin-top: 10rem;
+  margin-top:1rem;
   text-align: center;
   color: white;
   font-size: 50px;
@@ -565,4 +570,9 @@ html {
 .footer-styles{
   display: flex;
   justify-content: center;
+}
+
+#github-link{
+margin-right: -5rem;
+margin-left: 1rem;
 }

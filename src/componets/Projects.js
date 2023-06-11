@@ -27,10 +27,16 @@ const Projects = ({ slides }) => {
           {" "}
           〉
         </div>
-        <div
-          className="slides"
-          style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        ></div>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={slides[currentIndex].url}
+        >
+          <div
+            className="slides"
+            style={{ backgroundImage: `url(${slides[currentIndex].image})` }}
+          ></div>
+        </a>
         <div className="dot-container">
           {slides.map((slide, slideIndex) => (
             <div
@@ -43,7 +49,6 @@ const Projects = ({ slides }) => {
           ))}
         </div>
       </div>
-    
     </>
   )
 }

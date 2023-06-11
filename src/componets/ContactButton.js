@@ -5,7 +5,7 @@ const ContactButton = () => {
         className="NavBarBut"
         onClick={() =>
           document
-            .getElementById("contact-container")
+            .getElementById("subHeaderContact")
             .scrollIntoView({ behavior: "smooth" })
         }
       >
