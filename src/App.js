@@ -23,8 +23,6 @@ const App = () => {
     { image: image1, title: "Yum", url: "https://yum-web-application-front.onrender.com/" },
     { image: image2, title: "I Choose You", url: "https://www.linkedin.com/in/a-spencer-johnson" },
     { image: image3, title: "Apartment app", url: "https://www.linkedin.com/in/a-spencer-johnson" },
-    { image: image4, title: "Tic Tac Toe", url: "https://www.linkedin.com/in/a-spencer-johnson" },
-    { image: image5, title: "Pig latin", url: "https://www.linkedin.com/in/a-spencer-johnson" },
   ]
 
   useEffect(() => {
