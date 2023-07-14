@@ -12,8 +12,6 @@ import Cursor from "./Cursor"
 import image1 from "./assets/Yum.png"
 import image2 from "./assets/Pokemon.png"
 import image3 from "./assets/apartment.png"
-import image4 from "./assets/tic-tac.png"
-import image5 from "./assets/piglatin.png"
 import link from "./assets/link.png"
 import github from "./assets/GITHUB.png"
 
